@@ -12,7 +12,7 @@ A mystical and powerful **Code Snippet + DSA Grimoire Web App**, built for devel
 - 📊 **Dashboard**: See your snippet stats
 - 🌗 **Dark/Light Mode Toggle**
 - 👤 **User Account Panel** (Coming Soon)
-- 🧙‍♀️ Elden Ring inspired UI with magical vibes
+  
 
 
 ## 🛠️ Tech Stack
