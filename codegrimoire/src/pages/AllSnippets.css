@@ -1,0 +1,29 @@
+.all-snippets-container {
+  padding: 2rem;
+}
+
+.snippet-card {
+  background: #1e1e1e;
+  color: #f1f1f1;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 10px #00000088;
+}
+
+.snippet-card pre {
+  background: #333;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.delete-btn {
+  margin-top: 0.5rem;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}

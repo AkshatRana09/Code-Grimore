@@ -1,0 +1,123 @@
+.card {
+  background-color: #1e293b; /* Dark container */
+  color: #e2e8f0; /* Light text */
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color:#facc15 ; /* light blue for headings */
+}
+
+p {
+  margin: 0.3rem 0;
+  font-size: 1rem;
+}
+
+.codeBlock {
+  background-color: #0f172a;
+  color: #22c55e;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  border: 1px solid #22c55e33;
+  box-shadow: 0 0 8px #22c55e22;
+}
+.topicTag {
+  display: inline-block;
+  background: linear-gradient(145deg, #3a3a3a, #1a1a1a); /* Steel-dark gradient */
+  color: #facc15; /* Golden glow */
+  padding: 6px 12px;
+  border: 1px solid #facc15;
+  border-radius: 6px;
+  font-weight: bold;
+  font-family: 'Cinzel', serif;
+  box-shadow: 0 0 10px #facc15aa;
+  text-shadow: 0 0 2px #facc15;
+  letter-spacing: 1px;
+  margin-right: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.topicTag:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #facc15;
+}
+.card {
+  background-color: #111827;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 16px;
+  color: #f3f4f6;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.headerRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #facc15;
+  font-family: 'Cinzel', serif;
+  margin: 0;
+}
+
+.topicTag {
+  background: linear-gradient(145deg, #3a3a3a, #1a1a1a);
+  color: #facc15;
+  padding: 6px 12px;
+  border: 1px solid #facc15;
+  border-radius: 6px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.8rem;
+  box-shadow: 0 0 10px #facc15aa;
+  text-shadow: 0 0 2px #facc15;
+  letter-spacing: 1px;
+}.language {
+  font-family: 'Cinzel', serif; /* Use same mythical font */
+  color: #eab308; /* Soft golden color */
+  font-weight: bold;
+  text-shadow: 0 0 4px #facc15aa;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+}
+.language {
+  font-family: 'Cinzel', serif;
+  color: #eab308;
+  font-weight: bold;
+  text-shadow:
+    1px 1px 1px #000,
+    0 0 5px #facc15;
+  background: linear-gradient(to right, #4b3c1f, #1a1208);
+  padding: 4px 10px;
+  border-radius: 6px;
+  display: inline-block;
+}
+.language {
+  font-weight: bold;
+  font-family: 'Cinzel', serif;
+  font-size: 1rem;
+}

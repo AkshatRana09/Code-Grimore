@@ -1,0 +1,68 @@
+.home-container {
+  min-height: calc(100vh - 80px); /* Adjust depending on your navbar height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d0d0d;
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero {
+  max-width: 700px;
+  color: #f1f1f1;
+  margin-top: -50px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.highlight {
+  color: #facc15; /* Tailwind Yellow-400 */
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: #cbd5e1; /* Slate-300 */
+  margin-bottom: 2rem;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.btn.yellow {
+  background-color: #facc15;
+  color: #000;
+}
+
+.btn.outline {
+  border: 2px solid #facc15;
+  color: #facc15;
+  background: transparent;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+.snippet-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+  margin-top: 1rem;
+}

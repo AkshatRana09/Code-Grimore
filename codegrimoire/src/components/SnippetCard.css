@@ -1,0 +1,44 @@
+/* src/components/SnippetCard.css */
+.snippet-card {
+  background-color: #1f1f2e;
+  color: #f0f0f0;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  width: 300px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease;
+}
+
+.snippet-card:hover {
+  transform: translateY(-5px);
+}
+
+.snippet-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+}
+
+.snippet-description {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  color: #cccccc;
+}
+
+.snippet-language {
+  background-color: #33364f;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.8rem;
+  border-radius: 6px;
+  display: inline-block;
+  margin-bottom: 0.75rem;
+}
+
+.snippet-view-btn {
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
